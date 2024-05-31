@@ -1,0 +1,42 @@
+/* AuthForm.css */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 300px; /* Adjust the maximum width of the parent card here */
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  .auth-form {
+    background-color: #FDA60E;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+  }
+  
+  .auth-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2e77d0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .auth-button:hover {
+    background-color: #1f5b93;
+  }
+  
